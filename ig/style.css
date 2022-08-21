@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+
+}
+.loginbox
+{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    transform: translate(50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border: lightgray;
+    border-width: 2px;
+    border-style: solid;
+}
+.logo{
+    width: 100%;
+    height: 130px;
+
+}
+.loginbox input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    font-size: 10px;
+    outline: none;
+    background-color: whitesmoke;
+    border: lightgray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.loginbox input[type="submit"]{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.loginbox input[type="submit"]:hover{
+    background-color: whitesmoke;
+    color: #000;
+    transition: 0.5s;
+}
+.frgt{
+    position: center;
+    margin-left :30%;
+    text-decoration: none;
+    color: gray;
+}
+body a:hover{
+    color: blue;
+    transition: all 0.4s;
+}
+.box{
+    width: 350px;
+    height: 75px;
+    background-color: white;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border: lightgray;
+    border-width: 2px;
+    border-style: solid;
+}
+.box p{
+position: absolute;
+    top: 20px;
+    left: 110px;
+    right: 50px;
+
+}
+.box a{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    right: 50px;
+    text-decoration: none;
+    color: blue;
+
+}
+.tags{
+    position: absolute;
+    top: 90%;
+    left: 15%;
+}
+.tags a{
+    margin: 20px;
+    text-decoration: none;
+    color: slategray;
+}
+.tags a:hover {
+    color: black;
+    transition: 0.5s;
+}
